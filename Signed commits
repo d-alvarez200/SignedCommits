@@ -1,0 +1,14 @@
+Signed commits 
+
+Tips:
+
+To configure your Git client to sign commits by default for a local repository, in Git versions 2.0.0 and above, (run git config commit.gpgsign true) 
+To sign all commits by default in any local repository on your computer, run (git config --global commit.gpgsign true)
+
+
+
+When committing changes in your local branch, add the -S flag to the git commit command:
+
+$ git commit -S -m your commit message
+# Creates a signed commit
+
