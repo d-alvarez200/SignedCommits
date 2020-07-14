@@ -12,3 +12,6 @@ When committing changes in your local branch, add the -S flag to the git commit 
 $ git commit -S -m your commit message
 # Creates a signed commit
 
+
+Presentation of Signed Commits
+
